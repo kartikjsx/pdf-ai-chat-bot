@@ -225,11 +225,17 @@
 
 .topBar {
   display: flex;
+  margin: 10px;
+  border-radius: 15px;
+
   justify-content: space-between;
+
+  opacity: 0.5;
   button {
+    opacity: 1;
     background-color: #050505;
     color: white;
-    padding: 4px 10px;
+    padding: 8px 10px;
     border: white 2px solid;
     border-radius: 8px;
   }

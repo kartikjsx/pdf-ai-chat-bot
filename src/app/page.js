@@ -28,5 +28,10 @@ export default function Home() {
 
     cleanup();
   }, []);
-  return <Hero />;
+  return (
+    <>
+      <Hero />
+      <footer className="footer">Made by Kartik</footer>
+    </>
+  );
 }

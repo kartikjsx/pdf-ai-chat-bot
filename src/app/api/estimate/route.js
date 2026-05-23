@@ -32,7 +32,7 @@ export async function POST(req) {
 
   const totalChunks = splitDocs.length;
 
-  const estimatedMinutes = (totalChunks * 0.22) / 60;
+  const estimatedMinutes = (totalChunks * 0.66) / 60;
 
   const estimatedTime =
     estimatedMinutes < 1

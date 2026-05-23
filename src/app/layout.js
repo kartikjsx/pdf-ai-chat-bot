@@ -14,10 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${rubik.variable}`}>
-      <body>
-        {children}
-        <footer className="footer">Made by Kartik</footer>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
