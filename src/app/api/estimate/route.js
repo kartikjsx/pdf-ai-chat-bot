@@ -15,7 +15,7 @@ export async function POST(req) {
 
   const buffer = Buffer.from(bytes);
 
-  const tempFilePath = path.join(process.cwd(), "temp-estimate.pdf");
+  const tempFilePath = `/tmp/${file.name}`;
 
   fs.writeFileSync(tempFilePath, buffer);
 
